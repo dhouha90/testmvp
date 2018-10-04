@@ -1,0 +1,22 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="championShip"
+            type="com.example.dchikhaoui.testmvp.Model.ChampionShip"/>
+    </data>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/stringName"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@{championShip.strLeague}"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+
+
+
+</layout>
+
