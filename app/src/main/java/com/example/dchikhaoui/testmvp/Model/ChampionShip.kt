@@ -9,4 +9,7 @@ data class ChampionShip(
     override fun toString(): String {
         return "ChampionShip(idLeague='$idLeague', strLeague='$strLeague', strSport='$strSport', strLeagueAlternate='$strLeagueAlternate')"
     }
+        
+        fun test(){
+        }
 }
